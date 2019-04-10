@@ -1,0 +1,41 @@
+{
+  "name": "sheetblog",
+  "version": "1.0.0",
+  "description": "A blog with a google sheet backend",
+  "main": "index.js",
+  "repository": "https://github.com/mmoutenot/sheetblog",
+  "author": "mmoutenot@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "create-react-app": "^2.1.8"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "moment": "^2.24.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-google-sheet-connector": "^1.0.1",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "2.1.8",
+    "remark": "^10.0.1",
+    "remark-react": "^5.0.1",
+    "typeface-roboto": "^0.0.54",
+    "typeface-roboto-mono": "^0.0.54",
+    "typeface-space-mono": "^0.0.71"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

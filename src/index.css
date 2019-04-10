@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Roboto Mono', 'Courier New', monospace;
+}
+
+a {
+  color: black;
+  text-decoration-style: dotted;
+}
+
+button:disabled,
+input[type='submit']:disabled {
+  opacity: 0.5;
+  background-color: grey;
+  border-color: grey;
+  pointer-events: none;
+}

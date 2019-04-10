@@ -1,0 +1,9 @@
+.page {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+}
+
+.page img {
+  max-width: 100%;
+}

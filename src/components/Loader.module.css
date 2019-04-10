@@ -1,0 +1,29 @@
+.loaderContainer {
+  width: 20rem;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader:after {
+  font-size: 2rem;
+  display: block;
+  animation: loader 3s linear infinite alternate;
+  content: '';
+}
+
+@keyframes loader {
+  0% {
+    content: '🌎';
+  }
+
+  50% {
+    content: '🌍';
+  }
+
+  100% {
+    content: '🌏';
+  }
+}
