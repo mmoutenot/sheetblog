@@ -3,7 +3,6 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import ReactGoogleSheetConnector from 'react-google-sheet-connector';
 
 import {SPREADSHEET_ID} from '../sheetConfig';
-import {apiKey} from '../secrets';
 import PostLinks from './PostLinks';
 import Post from './Post';
 import Loader from '../components/Loader';
@@ -20,7 +19,7 @@ class App extends React.Component {
           <Router>
             <Switch>
               <ReactGoogleSheetConnector
-                apiKey={apiKey}
+                apiKey={process.env.GOOGLE_API_KEY}
                 spreadsheetId={SPREADSHEET_ID}
                 spinner={
                   <div className={cs.loaderContainer}>
