@@ -19,7 +19,7 @@ class App extends React.Component {
           <Router>
             <Switch>
               <ReactGoogleSheetConnector
-                apiKey={process.env.GOOGLE_API_KEY}
+                apiKey={process.env.REACT_APP_GOOGLE_API_KEY}
                 spreadsheetId={SPREADSHEET_ID}
                 spinner={
                   <div className={cs.loaderContainer}>
